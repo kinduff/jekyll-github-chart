@@ -64,7 +64,7 @@ Finally, if you don't want an `img` tag, you can pass a format argument to have 
 ## Example
 Here's an example using the default parameters.
 
-![Jekyll Github Chart example](https://user-images.githubusercontent.com/1270156/89127558-911b1e80-d4ee-11ea-8c74-fcf8bc3c491a.png)
+![Jekyll Github Chart example](https://user-images.githubusercontent.com/1270156/89127628-3df59b80-d4ef-11ea-8554-b4432d843544.png)
 
 ## Special thanks
 Thanks to [@akerl](https://github.com/akerl) for creating the [githubchart](https://github.com/akerl/githubchart) gem which is the foundation of this plugin.
