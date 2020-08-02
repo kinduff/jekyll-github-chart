@@ -22,7 +22,7 @@ module Jekyll
         encoding = 'charset=utf-8'
         data = CGI::escape(raw_svg).gsub('+', '%20')
 
-        "<img src='data:#{content_type};#{encoding},#{data}' class='github-contributions' alt='#{@user}\'s Github contributions' />"
+        "<img src='data:#{content_type};#{encoding},#{data}' class='github-contributions' alt='#{@user} Github contributions' />"
       end
 
       Liquid::Template.register_tag('github_chart', self)

@@ -46,7 +46,7 @@ You can call the tag with a the defaults like this.
 This will generate an HTML `img` tag with an SVG encoded as a data URI. For example:
 
 ```
-<img src='data:image/svg+xml;charset=utf-8,...' class='github-contributions' alt='username\'s Github contributions' />
+<img src='data:image/svg+xml;charset=utf-8,...' class='github-contributions' alt='username Github contributions' />
 ```
 
 There are 3 color schemes available: `default`, `old`, and `halloween`.
@@ -60,6 +60,11 @@ Finally, if you don't want an `img` tag, you can pass a format argument to have 
 ```
 {% github_chart username halloween raw %}
 ```
+
+## Example
+Here's an example using the default parameters.
+
+![Jekyll Github Chart example](https://user-images.githubusercontent.com/1270156/89127558-911b1e80-d4ee-11ea-8c74-fcf8bc3c491a.png)
 
 ## Special thanks
 Thanks to [@akerl](https://github.com/akerl) for creating the [githubchart](https://github.com/akerl/githubchart) gem which is the foundation of this plugin.
