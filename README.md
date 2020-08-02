@@ -1,6 +1,7 @@
 # Jekyll Github Chart
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-github-chart.svg)](https://rubygems.org/gems/jekyll-github-chart)
+[![Gem Downloads](https://img.shields.io/gem/dt/jekyll-github-chart.svg)](https://rubygems.org/gems/jekyll-github-chart)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
 This Jekyll plugin provides a tag that takes a Github user and returns either an image or a raw SVG of the contribution graph.
