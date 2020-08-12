@@ -1,8 +1,14 @@
+GIT
+  remote: https://github.com/kinduff/githubchart.git
+  revision: e0d1addebb5abc38cc63754f1ba6d36a8432f6f9
+  specs:
+    githubchart (3.1.1)
+      svgplot (~> 1.0.0)
+
 PATH
   remote: .
   specs:
-    jekyll_github_chart (0.1.0)
-      githubchart (~> 3.1.0)
+    jekyll-github-chart (0.1.1)
       jekyll
 
 GEM
@@ -10,23 +16,14 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    basiccache (1.0.0)
     colorator (1.1.0)
-    concurrent-ruby (1.1.6)
-    curb (0.9.10)
+    concurrent-ruby (1.1.7)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
     ffi (1.13.1)
     forwardable-extended (2.6.0)
-    githubchart (3.1.0)
-      githubstats (~> 2.0.0)
-      svgplot (~> 1.0.0)
-    githubstats (2.0.0)
-      basiccache (~> 1.0.0)
-      curb (~> 0.9.0)
-      nokogiri (~> 1.8.0)
     http_parser.rb (0.6.0)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
@@ -58,9 +55,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.3.0)
-    nokogiri (1.8.5)
-      mini_portile2 (~> 2.3.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.5)
@@ -69,7 +63,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
-    rouge (3.21.0)
+    rouge (3.22.0)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -82,7 +76,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll_github_chart!
+  githubchart (~> 3.1.1)!
+  jekyll-github-chart!
   rake (~> 12.0)
 
 BUNDLED WITH
