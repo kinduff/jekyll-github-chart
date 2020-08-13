@@ -7,10 +7,10 @@ module Jekyll
     class JekyllGithubChartTag < Liquid::Tag
       def initialize(tag_name, text, tokens)
         super
-        opts = text.split(' ').map(&:strip)
-        @user = opts[0]
+        opts    = text.split(' ').map(&:strip)
+        @user   = opts[0]
         @scheme = opts[1] || 'default' # old, halloween
-        @format = opts[2] || 'image' # raw
+        @format = opts[2] || 'image'   # raw
       end
 
       def render(context)

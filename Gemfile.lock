@@ -1,14 +1,8 @@
-GIT
-  remote: https://github.com/kinduff/githubchart.git
-  revision: e0d1addebb5abc38cc63754f1ba6d36a8432f6f9
-  specs:
-    githubchart (3.1.1)
-      svgplot (~> 1.0.0)
-
 PATH
   remote: .
   specs:
-    jekyll-github-chart (0.1.1)
+    jekyll-github-chart (0.1.3)
+      githubchart (~> 3.1.1)
       jekyll
 
 GEM
@@ -16,14 +10,23 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    basiccache (1.0.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.7)
+    curb (0.9.10)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
     ffi (1.13.1)
     forwardable-extended (2.6.0)
+    githubchart (3.1.1)
+      githubstats (~> 3.0.2)
+      svgplot (~> 1.0.0)
+    githubstats (3.0.2)
+      basiccache (~> 1.0.0)
+      curb (~> 0.9.0)
+      nokogiri (~> 1.10.8)
     http_parser.rb (0.6.0)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
@@ -55,6 +58,9 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.5)
@@ -76,7 +82,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  githubchart (~> 3.1.1)!
   jekyll-github-chart!
   rake (~> 12.0)
 

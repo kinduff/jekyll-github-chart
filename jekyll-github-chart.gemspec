@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_runtime_dependency 'jekyll'
+  spec.add_runtime_dependency 'githubchart', '~> 3.1.1'
 end
