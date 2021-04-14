@@ -12,7 +12,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :jekyll_plugins do
-  gem 'jekyll_github_chart'
+  gem 'jekyll-github-chart'
 end
 ```
 
